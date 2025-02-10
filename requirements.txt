@@ -1,0 +1,8 @@
+requests-html~=0.10.0
+flask-cors~=5.0.0
+flask-caching~=2.3.0
+gunicorn
+lxml_html_clean
+flask[async]~=3.1.0
+Quart~=0.20.0
+pyppeteer~=2.0.0
