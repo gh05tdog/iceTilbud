@@ -10,7 +10,7 @@ const App = () => {
     useEffect(() => {
         const fetchTilbud = async () => {
             try {
-                const response = await axios.get("http://localhost:5000/tilbud");
+                const response = await axios.get("https://api.ghostdog.dk/tilbud");
                 if (response.data.tilbud) {
                     setTilbud(response.data.tilbud);
                 } else {
