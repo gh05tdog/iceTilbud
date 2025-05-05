@@ -1,0 +1,44 @@
+.container {
+  padding: 1rem;
+  font-family: sans-serif;
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 4px solid #3498db;
+  width: 24px;
+  height: 24px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.tilbud-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.tilbud-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 4px;
+  text-align: center;
+  max-width: 200px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-gray {
+  color: gray;
+}
