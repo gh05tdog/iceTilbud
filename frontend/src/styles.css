@@ -12,6 +12,19 @@
   animation: spin 2s linear infinite;
 }
 
+.tilbud-card img {
+  /* Force every image into a 150×150px box */
+  width: 150px;
+  height: 150px;
+
+  /* Don’t stretch—preserve aspect ratio and letterbox if needed */
+  object-fit: contain;
+
+  /* Center it in the box */
+  object-position: center;
+}
+
+
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
